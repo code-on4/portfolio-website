@@ -1,0 +1,145 @@
+ 
+AKPASUBI MICHAEL  
+PhoneNo:  +234(0)8121491738 , +234(0)9168287550  
+ E-mail: akpasubimichael@gmail.com   
+Address: Ikosi  Road , Ketu, Lagos, Nigeria . 
+LinkedIn  Profile: https:// www.linkedin.com/in/michael -akpasubi -
+239b18226  
+ 
+PROFESSIONAL  SUMMARY   
+ 
+Frontend Engineer with 4+ years’ hands -on experience  building and maintaining production web applications 
+using React, TypeScript, Redux Toolkit, Tailwind, Zustand , and modern frontend tool s. Strong experience 
+engineering production systems used by government agencies, fintechs, and enterprise teams.  
+       AWS Certified (CCP & SAA) with proven ability to collaborat e across design, backend, DevOps, and 
+product teams. Passionate about building efficient interfaces, driving UI performance, and delivering reliable 
+features end -to-end. I enjoy solving UI problems, simplifying complex flows, and making apps faster and eas ier 
+to use.  
+EDUCATION   
+University of Benin, Nigeria                                                            March  2019  – September  2023  
+ Bachelor of Science, Computer Science.   
+CORE SKILLS   
+Frontend : JavaScript  (ES6+),  React.js,  TypeScript,  SASS,  Tailwind  CSS, Redux Toolkit, RTK Query, Next.js, 
+Shadcn, Context API  
+Version  Control  & Collaboration : Git, GitHub,  GitLab,  Bitbucket  
+State  Management : Redux,  Context API,  Redux  Toolkit,  Zustand,  RTK  
+Query  
+Web  Development  Tools : Visual  Studio Code,  Webpack,  Postman, 
+JetBrains  
+CI/CD & DevOps : Docker, Jenkins, GitHub Actions, AWS Code 
+Pipeline  
+Database Technologies : MySQL,  DynamoDB, Firebase  
+Cloud  Platforms : Amazon  Web  Services  (AWS)  
+Product & Collaboration : Agile/Scrum,  RESTful  APIs,  Jira, Figma,  Prisma,  Neon,  Shadcn  
+CONFERENCE/WORKSHOP  ATTENDED   
+ DigiLink:  Improving  digital  capabilities  among  students  2023  
+ DevFestLagos22’  2022  
+ Dev Fest Lagos  24’ 2024  
+ 
+ 
+ 
+ 
+ 
+INDUSTRIAL  EXPERIENCE   
+Nigeria Inter -Bank Settlement Scheme ( NIBSS)         June  2025  – Present Frontend Developer  
+ Worked on the development and optimization of external and internal frontend applications for log searching 
+automation and controlled  database  access used by over 200+ staff and partner agencies , improving log search 
+automation and reduc ing manual checks by 40%+
+ Took ownership of frontend bugs and fixes, resolving 90% of assigned issues within SLA.  
+ Wrote and maintained React -TypeScript code for dashboards, forms, tables, role -based access screens, and real -
+time data views  
+ Focused  on performance  optimization  and state management using  Redux, ensuring  smooth  data flow  and 
+responsiveness across multiple web applications. 
+ 
+Qucoon  Limited                                                                      May 2024  – June  2025  
+Frontend  Developer  
+ Built and shipped core features across multiple business -critical apps (CRM, Maker -Checker, Wellness platform) 
+using React, TypeScript, and Redux. These updates improved workflow speed and increased overall user 
+engagement by an estimated 20–30% . 
+ Integrated multiple backend services and reduced API -related errors by ~40%  after adding better request 
+validation and response handling.  
+ Focused  on state management  through  Redux, ensuring smooth  data flow  and optimizing  performance  across  all 
+components. Played a key role in building responsive UI/UX designs, ensuring accessibility and seamless user 
+experience 
+ Worked  closely  with backend  engineers  to integrate  complex  API services  for secure  data exchange  and 
+processing,  ensuring
+seamless  operation  between  frontend  and backend  systems.  
+ 
+ 
+ipNX  Nigeria  Limited                                                                      March  – November  2022  
+Application  Development  Support  
+ Maintained  documentations  related  to applications,  including  user manuals  troubleshooting  guides  
+and Standard Operating Procedures (SOP) 
+ Helped resolve 100+  support tickets by identifying bugs and working with the dev team on fixes.  
+ Improved documentation clarity, decreasing repeat user issues by 15–20%. 
+ Participate d and performed  testing  and quality  assurance  activities  before  deployment. 
+ Managed  and resolved  incidents  related  to applications  and prioritizing  them  based  on severity.
+ Took  part with the team  of developers  with the routine  maintenance  of applications which  
+sometimes included applying patches and updates 
+ 
+ 
+PROJECTS  
+CHOOSE  LIFE  WELLNESS  
+Developed  a fully  responsive  health  and wellness  platform  focused  on fitness  tracking, meal  planning, and  
+mental  wellness resources. Utilized React and  Redux to manage  user interactions, implementing  an intuitive interface  
+that adapts seamlessly  across devices. Integrated backend APIs to provide dynamic content delivery, ensuring a 
+personalized experience for users.  
+ 
+ 
+QOONITY  
+Built a dynamic frontend for an application pl atform  that allows users to input entities, attributes, and other necessary 
+elements to generate  customized  Kotlin  code. Used React to  create  an interactive  and user-friendly  interface  that enables 
+seamless user input and code generation. Implemented funct ionality to allow users to download the generated Kotlin code 
+directly from the platform, enhancing the development workflow.  
+ 
+NIBBS  CRM  
+Developed  a robust  CRM  solution  for NIBSS to  optimize  customer relationship  processes  and improve  
+engagement with  real- time data updates.  
+Integrated  backend  systems like  Teams  for meetings  to support  seamless  customer data management  and real-time 
+analytic s. 
+AI RESUME  ANALYZER  
+Developed  an AI-powered  resume analysis  tool that scans  and evaluates  resumes  based  on job 
+descr iptions, providing insights on keyword relevance and skill matching.  
+Built the application using React for the frontend and integrated AI -based algorithms to assess the quality of resumes and 
+provide feedback  to candidates for optimization. Ensured  smooth  user experience  with intuitive  form  design  and real-time 
+results, enhancing the recruitment process for hiring managers and job applicants.  
+ 
+TRAVEL  BUDDY  
+Developed  a Travel  Planner  application  to help users  plan trips, find  destinations, and  connect with  fellow  travelers  based  
+on interests and destinations. Utilized NextJs and NextAuth to manage user data, interactions and authentication, creating 
+an interactive and seamless experience. Integrated Google Maps API to provide travel routes, destination sugge stions, and 
+itinerary management, enabling users to plan their trips efficiently.  
+ 
+INVENTORY MANAGEMENT  SYSTEM  (IMS)  
+Deployed  an outsourced  inventory  management system on  a Linux  server . Installed  all necessary  software  dependencies  
+using Bash scripts . Implemented security measures, including configuring firewalls, applying access controls, and 
+enabling encryption where required.  
+VERIZON  CLOUD  PLATFORM  JOB SIMULATION  ON FORAGE  October  
+2023  
+ Completed  a Job Simulation  involving  a hypothetical  new VPN  product for Verizon’s  Cloud  Computing  
+team
+ Used  command  line Python  to test whether  Verizon’s  VPN  met the cloud  
+native  traits which includes redundancy, resilience and least -privilege
+ Researched  approaches  to achieve  application  security  and communicated  
+insights  in a PowerPoint Presentation 
+ 
+AWARDS  & HONORS   
+ 
+● MTN  Science  and Technology  Scholarship  2021  
+It is a scholarship  award  usually  given  to students  in their 2nd year in the university,  each recipient 
+receives an annual payment of N200,000 from when they qualify till graduation  
+ 
+● Byinks  Foundation  Scholarship  2019  
+A scholarship  for undergraduates  in notable  universities  across  the country, that  assist  in the payment 
+of tuition fees from when they qualify till graduation  
+● AWS  Certified  Cloud  Practitioner  2024  
+A prestigious  and globally  recognized  credentials  that validates  a comprehensive  understanding  of 
+Cloud Computing fundamentals and the Amazon Web Service  (AWS) ecosystem.  
+● AWS  Solutions  Architect  - Associate  2025  
+A prestigious  and globally  recognized  credentials  that validates  a comprehensive  understanding  of 
+Cloud Computing fundamentals and the Amazon Web Service  (AWS) ecosystem.  
+ Certificate  of Meritorious  Participation  in the Cowbellpedia  National  Mathematics  2015  
+Competition  
+A recognition  certificate presented  to students  with excellent  performance  in the competition  
+ 
+

@@ -1,0 +1,245 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* ===== Light Theme (Default) ===== */
+:root {
+  --background: #f0f2f8;
+  --foreground: #1a1a2e;
+  --card: rgba(255, 255, 255, 0.7);
+  --card-border: rgba(0, 0, 0, 0.06);
+  --muted: #f4f4f8;
+  --muted-foreground: #64748b;
+  --accent: #e8eaf0;
+  --accent-foreground: #1a1a2e;
+  --primary: #2d2d3a;
+  --primary-foreground: #ffffff;
+
+  --gradient-start: #e8ecf8;
+  --gradient-mid: #f0f2f8;
+  --gradient-end: #e4e8f4;
+}
+
+/* ===== Dark Theme ===== */
+.dark {
+  --background: #0a0a0f;
+  --foreground: #e4e4e7;
+  --card: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --muted: #18181b;
+  --muted-foreground: #a1a1aa;
+  --accent: #27272a;
+  --accent-foreground: #fafafa;
+  --primary: #fafafa;
+  --primary-foreground: #0a0a0f;
+
+  --gradient-start: #0a0a12;
+  --gradient-mid: #0a0a0f;
+  --gradient-end: #0d0d18;
+}
+
+/* ===== Base Styles ===== */
+@layer base {
+  * {
+    @apply transition-colors duration-200;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--foreground);
+    background: linear-gradient(
+      135deg,
+      var(--gradient-start) 0%,
+      var(--gradient-mid) 40%,
+      var(--gradient-end) 100%
+    );
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* ===== Floating Nav Pill ===== */
+.nav-pill {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.nav-item {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--muted-foreground);
+  transition: all 0.2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-item:hover {
+  color: var(--foreground);
+}
+
+.nav-item.active {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+
+/* ===== Cards ===== */
+.glass-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dark .glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Command Palette ===== */
+.command-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+.command-modal {
+  background: var(--card);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--card-border);
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 560px;
+  box-shadow: 0 16px 70px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.dark .command-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.command-input {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--card-border);
+  color: var(--foreground);
+  font-size: 1rem;
+  outline: none;
+}
+
+.command-input::placeholder {
+  color: var(--muted-foreground);
+}
+
+.command-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  color: var(--foreground);
+  transition: background 0.15s ease;
+}
+
+.command-item:hover,
+.command-item.selected {
+  background: var(--accent);
+}
+
+.command-category {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted-foreground);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ===== Page Transitions ===== */
+.page-enter {
+  animation: pageSlideIn 0.4s ease-out;
+}
+
+@keyframes pageSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Timeline ===== */
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--card-border);
+  border: 2px solid var(--muted-foreground);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 4px;
+  top: 10px;
+  bottom: 0;
+  width: 2px;
+  background: var(--card-border);
+}
+
+/* ===== Availability Dot ===== */
+.availability-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--card-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
