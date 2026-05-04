@@ -13,7 +13,7 @@ export default function BackButton() {
       onClick={() => navigate('/')}
       className="inline-flex items-center gap-2 text-sm font-medium text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors mb-8 group cursor-pointer"
     >
-      <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+      <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform"/>
       Back
     </motion.button>
   );
