@@ -86,4 +86,12 @@ npm run preview
 
 ## 🎨 Theme System
 
+The portfolio uses CSS custom properties for theming, defined in `src/index.css`:
 
+- **Light mode** (default): Soft lavender gradient background with white glass cards
+- **Dark mode**: Deep dark background with subtle translucent cards
+- **System mode**: Follows OS-level preference
+
+Theme preference is persisted in `localStorage` and can be toggled via:
+- The sun/moon icon in the navigation bar
+- The Command Palette (⌘K → "Toggle theme")
