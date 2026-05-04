@@ -8,7 +8,7 @@ const stats = [
   { label: 'Years Experience', value: '4+' },
   { label: 'Companies', value: '3+' },
   { label: 'Frontend & Cloud', value: 'Full-Stack' },
-  { label: 'Lagos, Nigeria', value: 'On-Site' },
+  { label: 'Lagos, Nigeria', value: 'Remote' },
 ];
 
 const featuredProjects = [
@@ -28,7 +28,7 @@ const featuredProjects = [
 
 export default function Home() {
   return (
-    <div className="page-enter w-full max-w-5xl mx-auto px-6 pt-28 pb-20">
+    <div className="page-enter w-full max-w-7xl mx-auto px-6 pt-8 pb-20">
       {/* Hero */}
       <section className="py-12 md:py-20">
         <motion.div
@@ -38,7 +38,7 @@ export default function Home() {
         >
           <div className="inline-flex items-center gap-2 rounded-full bg-[var(--accent)] px-4 py-1.5 text-sm font-medium text-[var(--muted-foreground)] mb-6">
             <span className="availability-dot" />
-            Available for opportunities
+            Available for new opportunities
           </div>
         </motion.div>
 
@@ -54,7 +54,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-sm md:text-sm lg:text-4xl font-medium tracking-tight text-[var(--foreground)] mb-6 leading-[1.1]"
+          className="text-sm md:text-sm lg:text-xl font-medium tracking-tight text-[var(--foreground)] mb-6 leading-[1.1]"
         >
           Software Developer
         </motion.h5>
@@ -95,7 +95,7 @@ export default function Home() {
       </section>
 
       {/* Stats Row */}
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-16">
         {stats.map((stat, i) => (
           <StatCard key={stat.label} label={stat.label} value={stat.value} index={i} />
         ))}
@@ -142,7 +142,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-wrap gap-3">
             {[
-              'JavaScript', 'TypeScript', 'React', 'Next.js', 'Redux', 'Zustand',
+              'JavaScript', 'TypeScript', 'React', 'Nest JS','Next.js', 'Redux', 'Zustand',
               'Tailwind CSS', 'Node.js', 'AWS', 'Docker', 'Git', 'REST APIs'
             ].map((skill, i) => (
               <motion.span

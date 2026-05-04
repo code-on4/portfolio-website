@@ -5,7 +5,7 @@ import ExperienceCard from '../components/ui/ExperienceCard';
 
 const experiences = [
   {
-    title: 'Frontend Developer',
+    title: 'Software Developer',
     company: 'Nigeria Inter-Bank Settlement Scheme (NIBSS)',
     location: 'Lagos',
     date: 'June 2025 – Present',
@@ -16,7 +16,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Frontend Developer',
+    title: 'Software Developer',
     company: 'Qucoon Limited',
     location: 'Lagos',
     date: 'May 2024 – June 2025',

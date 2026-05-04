@@ -10,7 +10,7 @@ export default function BackButton() {
       initial={{ opacity: 0, x: -10 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.3 }}
-      onClick={() => navigate('/')}
+      onClick={() => navigate(-1)}
       className="inline-flex items-center gap-2 text-sm font-medium text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors mb-8 group cursor-pointer"
     >
       <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform"/>
