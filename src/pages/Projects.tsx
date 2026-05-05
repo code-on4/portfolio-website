@@ -23,12 +23,6 @@ const projects = [
     tech: ['React', 'AI Integration', 'Tailwind'],
   },
   {
-    title: 'Qoonity',
-    description: 'Platform for generating customized Kotlin code from user-defined entities and attributes with direct download functionality.',
-    year: '2024',
-    tech: ['React', 'TypeScript', 'Code Gen'],
-  },
-  {
     title: 'Travel Buddy',
     description: 'Travel planner with Google Maps integration for route planning, destination discovery, and NextAuth-secured user accounts.',
     year: '2023',
